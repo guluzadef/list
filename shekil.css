@@ -20,3 +20,18 @@ body {
     background: #4040406e;
     padding: 23px;
 }
+.search {
+    width:30px;
+    height: 30px;
+    
+
+    
+
+}
+.search-container {
+    display: flex ;
+}
+.form-control {
+    height: 30px;
+
+}

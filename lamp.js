@@ -23,6 +23,18 @@ document.onclick =   function (event){
         
 
     }
+    if (event.target.id=== "searchid"){
+        if(input.value !== ""){
+            var text=input.value;
+            input.value = "";
+            ul.innerHTML += make_li_element (text);
+            
+            
+    
+            
+        }
+
+    }
 }
 
  
